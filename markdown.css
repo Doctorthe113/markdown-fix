@@ -1,0 +1,23 @@
+body {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+pre {
+  border: 1px solid var(--vscode-focusBorder, var(--vscode-textLink-foreground));
+  border-radius: 4px;
+}
+
+/* Headings with dynamic theme colors */
+h1 {
+  color: var(--vscode-symbolIcon-classForeground, var(--vscode-textLink-foreground));
+  border-bottom: 1px solid var(--vscode-editorGroup-border);
+}
+
+h2 {
+  color: var(--vscode-symbolIcon-functionForeground, var(--vscode-textLink-activeForeground));
+}
+
+h3 {
+  color: var(--vscode-symbolIcon-variableForeground, var(--vscode-editorInfo-foreground));
+}

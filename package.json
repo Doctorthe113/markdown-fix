@@ -1,0 +1,23 @@
+{
+  "name": "markdown-fix",
+  "displayName": "Markdown Fix",
+  "description": "Applies a global stylesheet to the built-in Markdown preview.",
+  "version": "0.0.1",
+  "publisher": "Doctorthe113",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Doctorthe113/markdown-fix.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "markdown.previewStyles": [
+      "./markdown.css"
+    ]
+  }
+}
