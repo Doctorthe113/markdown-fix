@@ -1,0 +1,32 @@
+name: Publish extension
+
+on:
+  push:
+    branches: [main, master]
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Configure git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump patch version and publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: bun x @vscode/vsce publish patch -p "$VSCE_PAT"
