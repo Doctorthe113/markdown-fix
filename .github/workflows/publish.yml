@@ -27,5 +27,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Bump patch version and publish with OIDC
-        run: bun x @vscode/vsce publish --oidc
+      - name: Publish with OIDC
+        run: bun x @vscode/vsce@3.9.3-12 publish --oidc

@@ -2,7 +2,7 @@
   "name": "markdown-fix",
   "displayName": "Markdown Fix",
   "description": "Improves the built-in Markdown preview: a centered 750px reading column, theme-aware heading colors, and styled links and code blocks.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "real-doctorthe113",
   "repository": {
     "type": "git",
