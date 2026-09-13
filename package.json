@@ -1,8 +1,8 @@
 {
-  "name": "markdown-preview-style",
-  "displayName": "Markdown Preview Style",
+  "name": "markdown-preview-styler",
+  "displayName": "Markdown Preview Styler",
   "description": "Improves the built-in Markdown preview: a centered 750px reading column, theme-aware heading colors, and styled links and code blocks.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "real-doctorthe113",
   "repository": {
     "type": "git",

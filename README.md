@@ -1,4 +1,4 @@
-# Markdown Preview Style
+# Markdown Preview Styler
 
 Applies `markdown.css` to the built-in VS Code Markdown preview so headings,
 code blocks, links, and page width follow the active color theme.
@@ -13,7 +13,7 @@ code blocks, links, and page width follow the active color theme.
 ## Install
 
 ```sh
-code --install-extension markdown-preview-style-0.0.3.vsix
+code --install-extension markdown-preview-styler-0.0.4.vsix
 ```
 
 Then open a Markdown file and run **Markdown: Open Preview**.
