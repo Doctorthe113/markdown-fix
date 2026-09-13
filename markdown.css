@@ -8,6 +8,16 @@ pre {
   border-radius: 4px;
 }
 
+a {
+  color:  var(--vscode-focusBorder, var(--vscode-textLink-foreground));
+  background: color-mix(in srgb, var(--vscode-focusBorder, var(--vscode-textLink-foreground)) 5%, transparent);
+  text-decoration: underline;
+  text-decoration-color: var(
+  --vscode-focusBorder,
+  var(--vscode-textLink-foreground));
+  text-underline-offset: 2px;
+}
+
 /* Headings with dynamic theme colors */
 h1 {
   color: var(--vscode-symbolIcon-classForeground, var(--vscode-textLink-foreground));

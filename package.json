@@ -1,9 +1,9 @@
 {
   "name": "markdown-fix",
   "displayName": "Markdown Fix",
-  "description": "Applies a global stylesheet to the built-in Markdown preview.",
+  "description": "Improves the built-in Markdown preview: a centered 750px reading column, theme-aware heading colors, and styled links and code blocks.",
   "version": "0.0.1",
-  "publisher": "Doctorthe113",
+  "publisher": "real-doctorthe113",
   "repository": {
     "type": "git",
     "url": "https://github.com/Doctorthe113/markdown-fix.git"
